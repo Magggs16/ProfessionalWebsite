@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="WebStyle.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maggie's Website</title>
+</head>
+<div class="header">
+    <h>Maggie Amador</h>
+    <h1>Email: mamador2@mail.stmarytx.edu</h1>
+
+</div>
+<body style="background: floralwhite">
+
+<img src="maggie.jpg" align="middle" class="center" id="myImage">
+<div class="centerButton" align="middle"><button class="b1"onclick=" window.open('AmadorMaggieResume.pdf'); return true;">Resume</button></div>
+
+
+
+
+<div class="popup" onclick="myFunction()" align="middle">Click me for bio!
+    <span class="popuptext" id="myPopup">My name is Maggie Amador and I am student at St. Mary's University. I
+                                        am majoring in Computer Science with minors in Mathematics and Portuguese.
+                                        I am hoping to pursue a career in Software Engineering!</span>
+</div>
+<div class="popup2" onclick="myFunction2()" align="middle">Click me for skills!
+    <span class="popuptext2" id="myPopup2">I am most proficient in the languages C/C++, Java, and Python. I have
+                                            been able to expand my knowledge in software's such as Jira, Confluence
+                                            Salesforce, and Jenkins through my experiences interning at iHeartMedia and
+                                            Accenture Federal Services.</span>
+</div>
+
+<div class="popup2" onclick="myFunction3()" align="middle">Click me for relevant coursework!
+    <span class="popuptext2" id="myPopup3">I have taken the following courses: Object Oriented Programming I, Algorithms,
+                                            Discrete Mathematics, Calculus II, Calculus I, Programming II, and Programming I</span>
+</div>
+
+</body>
+</html>
+
+<script>
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+    function myFunction2() {
+        var popup = document.getElementById("myPopup2");
+        popup.classList.toggle("show");
+    }
+    function myFunction3() {
+        var popup = document.getElementById("myPopup3");
+        popup.classList.toggle("show");
+    }
+</script>

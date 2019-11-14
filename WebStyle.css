@@ -1,0 +1,197 @@
+body{
+    background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiT3cSqs5LlAhUIca0KHVfNA9oQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.shutterstock.com%2Fvideo%2Fclip-1018020805-moving-blue-pink-gradient-background-website&psig=AOvVaw1IDboiw_DR2XhsYYuz_-9K&ust=1570821244194694 ");
+    background-color: #cccccc;
+}
+img{
+    border-radius: 50%;
+    border: #555555;
+}
+img.resize {
+    width:50px;
+    height:40px;
+}
+#myImage{
+    width: 25%;
+    height: auto;
+    left: 0px;
+    right:0px;
+}
+.center {
+    padding: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centerButton {
+    padding: .05%;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h{
+    font-family: "Georgia", serif;
+    margin-left: 43%;
+    font-size: 30px;
+}
+h1{
+    font-family: "Georgia", serif;
+    margin-left: 40%;
+    font-size: 15px;
+}
+
+.p{
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    border: navajowhite;
+    padding: 1px;
+    text-align: left;
+    background: lightgrey;
+    color: midnightblue;
+    font-size: 25px;
+}
+.b1 {
+    background-color: lightgrey; /* Green */
+    border: none;
+    color: midnightblue;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    border-radius: 12px;
+
+}
+.b1:hover {
+    background-color:darkslateblue; /* Green */
+    color: white;
+}
+.b1:active {
+    background-color: darkslateblue;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
+
+/* Popup container */
+.popup {
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 150px;
+    position: relative;
+    color: midnightblue;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Georgia", serif;
+    font-size: 26px;
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    top: 125%;
+    left: 40%;
+    margin-left: -80px;
+}
+
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Popup container */
+.popup2 {
+    margin-top: 5%;
+    margin-left: 9%;
+    width: 150px;
+    position: relative;
+    color: midnightblue;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Georgia", serif;
+    font-size: 26px;
+}
+
+
+/* The actual popup (appears on top) */
+.popup2 .popuptext2 {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    top: 125%;
+    left: 40%;
+    margin-left: -80px;
+}
+
+
+/* Popup arrow */
+.popup2 .popuptext2::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup2 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
